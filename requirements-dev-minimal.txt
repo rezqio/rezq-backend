@@ -1,0 +1,12 @@
+django-extensions
+docker
+ipdb
+ipython
+pre-commit
+pydotplus
+pytest
+pytest-cov
+pytest-django
+pytest-xdist
+requirements-tools
+Werkzeug

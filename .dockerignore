@@ -1,0 +1,6 @@
+**/*.py[co]
+**/__pycache__
+**/.DS_Store
+rezq_backend/db.sqlite3
+rezq_backend/rezq/migrations
+rezq_backend/static
