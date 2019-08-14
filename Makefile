@@ -30,10 +30,6 @@ endif
 		.venv/bin/pip install -r requirements.txt -r requirements-dev.txt \
 	)
 
-deps-broken:  ## install dependencies
-	vendor/venv-update venv= -ppython3 .venv \
-	install= -r requirements.txt -r requirements-dev.txt
-
 db:  ## migrate dev database and add test data
 	.venv/bin/python rezq_backend/manage.py makemigrations rezq
 	.venv/bin/python rezq_backend/manage.py migrate
