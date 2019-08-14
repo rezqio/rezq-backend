@@ -21,8 +21,12 @@ Doesn't support Windows.
 #### Production
 
 ```
-export DJANGO_PROD='TRUE'
-export DJANGO_SECRET_KEY='???'
+DJANGO_PROD='TRUE'
+DJANGO_ADMIN_PAGE_PATH'???'
+DJANGO_SECRET_KEY='???'
+DJANGO_DB_HOST='???'
+DJANGO_DB_PASSWORD='???'
+EMAIL_HOST_PASSWORD='???'
 ```
 
 ### Make
@@ -34,7 +38,7 @@ Try `make help`.
 You **must** activate the `.venv` every time! You can either:
 
 * Install `direnv` to activate automatically: https://direnv.net/
-* `source .venv/bin/activate` manually every time
+* `source .venv/bin/activate` manually
 
 ## Original Authors
 
